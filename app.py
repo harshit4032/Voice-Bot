@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+os.system("pip install PyAudio")
 from utils.record_audio import record_audio
 from utils.transcribe_w_whisper import transcribe_audio
 from utils.get_llm_response import (
