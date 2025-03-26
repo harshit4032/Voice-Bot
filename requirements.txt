@@ -1,5 +1,6 @@
 streamlit
 soundfile
+sounddevice
 openai
 dotenv
 langchain_core
